@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+streamlit
+torch
+torchaudio
+numpy
+librosa
+soundfile
+matplotlib
+python-multipart

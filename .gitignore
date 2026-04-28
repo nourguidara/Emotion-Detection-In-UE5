@@ -1,0 +1,6 @@
+checkpoints/
+uploaded_audio/
+test_audio/
+*.wav
+*.pth
+__pycache__/
