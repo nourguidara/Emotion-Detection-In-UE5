@@ -15,7 +15,7 @@ INFERENCE_CONFIG = {
     "max_duration": 10.0,
     "emotions": ["happy", "sad", "angry", "neutral"],
     "device": "cuda" if torch.cuda.is_available() else "cpu",
-    "checkpoint_path": os.path.join("checkpoints", "wavlm_emotion_ravdess_final.pth"),
+    "checkpoint_path": os.path.join("checkpoints", "cremad_best_model.pth"),
     "confidence_threshold": 0.65,
 }
 
