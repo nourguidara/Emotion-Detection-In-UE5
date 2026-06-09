@@ -46,7 +46,28 @@ Supported emotions include:
 - 😐 Neutral
 
 ---
+## 🎥 Demo Video
 
+
+
+https://github.com/user-attachments/assets/3ca4b8e4-b4c7-4136-8ea6-0a5688def852
+
+
+
+https://github.com/user-attachments/assets/c1fbfe97-7267-4517-9266-6d8a08da09b3
+
+
+
+The video showcases:
+
+- Backend execution
+- Emotion prediction
+- Unreal Engine integration
+- Prototype 1 visual effects
+- Prototype 2 lip synchronization
+- Character emotional reactions
+
+---
 ### 🎮 Unreal Engine Integration
 
 The Unreal Engine client communicates with the AI backend through REST API calls.
@@ -149,7 +170,6 @@ source venv/bin/activate
 ```
 
 ### Install Dependencies
->>>>>>> 03adebfd7bf3a24739fead8e9ed06d6f6ea36362
 
 ```bash
 pip install -r requirements.txt
@@ -157,37 +177,6 @@ pip install -r requirements.txt
 
 ---
 
-<<<<<<< HEAD
-## Model Files
-
-Model files are not included (too large).
-
-You must manually add them in:
-
-```
-checkpoints/
-```
-
-Example:
-
-```
-checkpoints/wavlm_emotion_ravdess_final.pth
-```
-
----
-
-## Run the Backend
-
-From the backend folder:
-
-```bash
-python -m uvicorn app:app --reload
-```
-
-API will be available at:
-
-```
-=======
 ## ▶️ Run the Backend
 
 ```bash
@@ -203,32 +192,11 @@ uvicorn app:app --reload
 The API will be available at:
 
 ```text
->>>>>>> 03adebfd7bf3a24739fead8e9ed06d6f6ea36362
 http://127.0.0.1:8000
 ```
 
 ---
 
-<<<<<<< HEAD
-## Test the API
-
-Open:
-
-```
-http://127.0.0.1:8000/docs
-```
-
-Use the FastAPI interface to upload and test audio files.
-
----
-
-## Output Example
-
-```json
-{
-  "emotion": "angry",
-  "confidence": 0.87
-=======
 ## 📡 API Example
 
 ### Predict Emotion
@@ -245,38 +213,19 @@ Upload a `.wav` file and receive:
 {
     "emotion": "angry",
     "confidence": 0.88
->>>>>>> 03adebfd7bf3a24739fead8e9ed06d6f6ea36362
 }
 ```
 
 ---
 
-<<<<<<< HEAD
+---
+
 ## Notes
 
 - Use `.wav` audio files only  
 - Recommended sample rate: 16000 Hz  
 - Low-confidence predictions may default to neutral  
 - Designed to communicate with Unreal Engine via HTTP requests  
-=======
-## 🎥 Demo Video
-
-The complete demonstration video is available in:
-
-```text
-Demo/Demo_Video.mp4
-```
-
-The video showcases:
-
-- Backend execution
-- Emotion prediction
-- Unreal Engine integration
-- Prototype 1 visual effects
-- Prototype 2 lip synchronization
-- Character emotional reactions
-
----
 
 ## 📊 Presentation
 
@@ -301,6 +250,4 @@ It contains:
 
 ## 📜 License
 
-This project was developed in collaboration with Lanterns Studio Company
-.
->>>>>>> 03adebfd7bf3a24739fead8e9ed06d6f6ea36362
+This project was developed in collaboration with Lanterns Studio Company.
