@@ -1,34 +1,4 @@
-<<<<<<< HEAD
-# Emotion Detection Backend
 
-This backend is part of the ISS project. It processes audio files, detects emotions using an AI model, and returns results to be used in Unreal Engine.
-
----
-
-## Project Structure
-
-```
-BACKEND/
-│
-├── app.py                 # FastAPI entry point
-├── inference.py           # Emotion prediction logic
-├── preprocess.py          # Audio preprocessing
-├── requirements.txt       # Dependencies
-│
-├── checkpoints/           # Model files (.pth) - NOT included
-├── test_audio/            # Sample audio files
-├── uploaded_audio/        # Uploaded audio from API
-└── debug/                 # Debug files
-```
-
----
-
-## Requirements
-
-- Python 3.11
-
-Install dependencies:
-=======
 # 🎭 Emotion-Driven Character Animation using Speech Emotion Recognition and Unreal Engine 5
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
